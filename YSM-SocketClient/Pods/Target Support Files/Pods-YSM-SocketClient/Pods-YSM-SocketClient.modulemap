@@ -1,0 +1,6 @@
+framework module Pods_YSM_SocketClient {
+  umbrella header "Pods-YSM-SocketClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

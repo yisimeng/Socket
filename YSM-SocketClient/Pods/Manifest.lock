@@ -1,0 +1,18 @@
+PODS:
+  - ProtocolBuffers-Swift (3.0.6)
+  - Socket.IO-Client-Swift (8.1.2)
+  - SwiftSocket (1.2)
+
+DEPENDENCIES:
+  - ProtocolBuffers-Swift
+  - Socket.IO-Client-Swift
+  - SwiftSocket
+
+SPEC CHECKSUMS:
+  ProtocolBuffers-Swift: ee072e78456f2332a0b0f759f718b9c59443bbc8
+  Socket.IO-Client-Swift: 542d82e6708f9901b3f6c1d134fb60fa0d09d4d1
+  SwiftSocket: 5052a3b10dbb9224cfb0875eb95940143252d458
+
+PODFILE CHECKSUM: edd02b48d2163007f6708268abb2827827f3d6cb
+
+COCOAPODS: 1.2.0.beta.1

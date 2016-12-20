@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C5B130F842F252729947F9 /* Pods_YSM_SocketClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA9E6F2BA329588A3E9F42 /* Pods_YSM_SocketClient.framework */; };
+		EE22FCE31DFFFB8E0034165F /* YSMClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCE21DFFFB8E0034165F /* YSMClientManager.swift */; };
+		EE22FCFE1E016B9B0034165F /* IMMessage.proto in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCFC1E016B9B0034165F /* IMMessage.proto */; };
+		EE22FCFF1E016B9B0034165F /* Immessage.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCFD1E016B9B0034165F /* Immessage.proto.swift */; };
+		EEE6C0461DFF0264008BAB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C0451DFF0264008BAB07 /* AppDelegate.swift */; };
+		EEE6C0481DFF0264008BAB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C0471DFF0264008BAB07 /* ViewController.swift */; };
+		EEE6C04B1DFF0264008BAB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE6C0491DFF0264008BAB07 /* Main.storyboard */; };
+		EEE6C04D1DFF0264008BAB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE6C04C1DFF0264008BAB07 /* Assets.xcassets */; };
+		EEE6C0501DFF0264008BAB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE6C04E1DFF0264008BAB07 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1356E86A7E709ABFCDE9E68 /* Pods-YSM-SocketClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSM-SocketClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSM-SocketClient/Pods-YSM-SocketClient.debug.xcconfig"; sourceTree = "<group>"; };
+		EA18F7B7B184E4AD0A0B35A5 /* Pods-YSM-SocketClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSM-SocketClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSM-SocketClient/Pods-YSM-SocketClient.release.xcconfig"; sourceTree = "<group>"; };
+		EE22FCE21DFFFB8E0034165F /* YSMClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSMClientManager.swift; sourceTree = "<group>"; };
+		EE22FCFC1E016B9B0034165F /* IMMessage.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IMMessage.proto; sourceTree = "<group>"; };
+		EE22FCFD1E016B9B0034165F /* Immessage.proto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immessage.proto.swift; sourceTree = "<group>"; };
+		EEE6C0421DFF0264008BAB07 /* YSM-SocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YSM-SocketClient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE6C0451DFF0264008BAB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE6C0471DFF0264008BAB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE6C04A1DFF0264008BAB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE6C04C1DFF0264008BAB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE6C04F1DFF0264008BAB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE6C0511DFF0264008BAB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFA9E6F2BA329588A3E9F42 /* Pods_YSM_SocketClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSM_SocketClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE6C03F1DFF0264008BAB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5B130F842F252729947F9 /* Pods_YSM_SocketClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C42D1794ADB44912BB219B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA9E6F2BA329588A3E9F42 /* Pods_YSM_SocketClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2EED5B6F29CE3AEF8174A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1356E86A7E709ABFCDE9E68 /* Pods-YSM-SocketClient.debug.xcconfig */,
+				EA18F7B7B184E4AD0A0B35A5 /* Pods-YSM-SocketClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEE6C0391DFF0264008BAB07 = {
+			isa = PBXGroup;
+			children = (
+				EEE6C0441DFF0264008BAB07 /* YSM-SocketClient */,
+				EEE6C0431DFF0264008BAB07 /* Products */,
+				0A2EED5B6F29CE3AEF8174A9 /* Pods */,
+				05C42D1794ADB44912BB219B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE6C0431DFF0264008BAB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6C0421DFF0264008BAB07 /* YSM-SocketClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE6C0441DFF0264008BAB07 /* YSM-SocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				EEE6C0451DFF0264008BAB07 /* AppDelegate.swift */,
+				EEE6C0471DFF0264008BAB07 /* ViewController.swift */,
+				EE22FCE21DFFFB8E0034165F /* YSMClientManager.swift */,
+				EEE6C0491DFF0264008BAB07 /* Main.storyboard */,
+				EEE6C04C1DFF0264008BAB07 /* Assets.xcassets */,
+				EEE6C04E1DFF0264008BAB07 /* LaunchScreen.storyboard */,
+				EEE6C0511DFF0264008BAB07 /* Info.plist */,
+				EE22FCFC1E016B9B0034165F /* IMMessage.proto */,
+				EE22FCFD1E016B9B0034165F /* Immessage.proto.swift */,
+			);
+			path = "YSM-SocketClient";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE6C0411DFF0264008BAB07 /* YSM-SocketClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE6C0541DFF0264008BAB07 /* Build configuration list for PBXNativeTarget "YSM-SocketClient" */;
+			buildPhases = (
+				484187958350D57D3CFC5638 /* [CP] Check Pods Manifest.lock */,
+				EEE6C03E1DFF0264008BAB07 /* Sources */,
+				EEE6C03F1DFF0264008BAB07 /* Frameworks */,
+				EEE6C0401DFF0264008BAB07 /* Resources */,
+				6BE8C56583FF64C368EB68A4 /* [CP] Embed Pods Frameworks */,
+				2413B1630F82B23B84EC7B53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YSM-SocketClient";
+			productName = "YSM-SocketClient";
+			productReference = EEE6C0421DFF0264008BAB07 /* YSM-SocketClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE6C03A1DFF0264008BAB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "忆思梦";
+				TargetAttributes = {
+					EEE6C0411DFF0264008BAB07 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEE6C03D1DFF0264008BAB07 /* Build configuration list for PBXProject "YSM-SocketClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE6C0391DFF0264008BAB07;
+			productRefGroup = EEE6C0431DFF0264008BAB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE6C0411DFF0264008BAB07 /* YSM-SocketClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE6C0401DFF0264008BAB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6C0501DFF0264008BAB07 /* LaunchScreen.storyboard in Resources */,
+				EE22FCFE1E016B9B0034165F /* IMMessage.proto in Resources */,
+				EEE6C04D1DFF0264008BAB07 /* Assets.xcassets in Resources */,
+				EEE6C04B1DFF0264008BAB07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2413B1630F82B23B84EC7B53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSM-SocketClient/Pods-YSM-SocketClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484187958350D57D3CFC5638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE8C56583FF64C368EB68A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSM-SocketClient/Pods-YSM-SocketClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE6C03E1DFF0264008BAB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE6C0481DFF0264008BAB07 /* ViewController.swift in Sources */,
+				EE22FCFF1E016B9B0034165F /* Immessage.proto.swift in Sources */,
+				EE22FCE31DFFFB8E0034165F /* YSMClientManager.swift in Sources */,
+				EEE6C0461DFF0264008BAB07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEE6C0491DFF0264008BAB07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE6C04A1DFF0264008BAB07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE6C04E1DFF0264008BAB07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE6C04F1DFF0264008BAB07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE6C0521DFF0264008BAB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE6C0531DFF0264008BAB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE6C0551DFF0264008BAB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1356E86A7E709ABFCDE9E68 /* Pods-YSM-SocketClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YSM-SocketClient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simeng.YSM-SocketClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEE6C0561DFF0264008BAB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA18F7B7B184E4AD0A0B35A5 /* Pods-YSM-SocketClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YSM-SocketClient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "simeng.YSM-SocketClient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE6C03D1DFF0264008BAB07 /* Build configuration list for PBXProject "YSM-SocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6C0521DFF0264008BAB07 /* Debug */,
+				EEE6C0531DFF0264008BAB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE6C0541DFF0264008BAB07 /* Build configuration list for PBXNativeTarget "YSM-SocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE6C0551DFF0264008BAB07 /* Debug */,
+				EEE6C0561DFF0264008BAB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE6C03A1DFF0264008BAB07 /* Project object */;
+}
